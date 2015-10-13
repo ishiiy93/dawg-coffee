@@ -1,1 +1,211 @@
-/* Your stylesheet goes here */
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Sans-Serif;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: #E9EAEE;
+}
+
+h1 {
+	font-family: "Raleway", "Helvetica Neue", Helvetica, Sans-Serif;
+}
+
+h2, svg {
+	color: #BC6026;
+	fill: #BC6026;
+	height: 1em;
+}
+
+nav {
+	width: 100%;
+	background-color: #181C22;
+	position: fixed;
+	z-index: 1;
+}
+
+ul {
+	margin: 0;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+li {
+	display: inline;
+	font-size: 16px;
+}
+
+#navicon {
+	height: 1em;
+	fill: white;
+	margin-left: 15px;
+}
+
+#navicon:hover {
+	fill: #D87E28;
+}
+
+#top a {
+	color: white;
+	font-variant: small-caps;
+}
+
+#top a:hover {
+	text-decoration: none;
+	color: #D87E28;
+}
+
+#header {
+	padding-top: 3em;
+	padding-bottom: 1em;
+}
+
+#header p {
+	display: none;
+}
+
+#headline p {
+	font-style: italic;
+}
+
+#headline h2 {
+	display: none;
+}
+
+#information {
+	background-color: #dbdce3;
+	width: 100%;
+	padding: 1em;
+	text-align: center;
+}
+
+#map {
+	text-align: center;
+}
+
+#locationmap {
+	border-radius: 5px;
+}
+
+#map a {
+	display: inline-block;
+}
+
+.contactlist {
+	display: block;
+	padding: 0.5em;
+}
+
+dd {
+	padding-left: 1em;
+	font-style: italic;
+}
+
+#menu {
+	padding-bottom: 1.5em;
+	overflow: hidden;
+}
+
+#story {
+	padding: 1.5em;
+	background-color: #dbdce3;
+}
+
+#story img {
+	float: right;
+	max-height: 300px;
+	margin-left: 1em;
+	border-radius: 5px;
+}
+
+#footer {
+	border-top: 3px solid #D87E28;
+	background-color: #afb3c2;
+	font-size: 12px;
+	padding: 1em;
+	float: clear;
+}
+
+.col-md-3, .col-md-9 {
+	display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+
+	h2 {
+		text-align: center;
+		margin-bottom: 1em;
+	}
+
+	nav {
+		background-color: rgba(24, 28, 34, 0.8);
+	}
+
+	li {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	#header {
+		background-image: url(file:///Users/yotaishii%201/Desktop/343/challenge2/dawg-coffee/img/background-sm.jpg);
+		width: 100%;
+		background-repeat: no-repeat;
+		min-height: 550px;
+	}
+
+	#header p, h1 {
+		text-align: right;
+		color: white;
+		display: block;
+	}
+
+	#headline {
+		font-size: 1.25em;
+		text-align: center;
+		padding-bottom: 3em;
+		padding-top: 3em;
+	}
+
+	#headline h2 {
+		display: block;
+	}
+
+	#story {
+		overflow: hidden;
+	}
+
+	#story img {
+		max-height: 400px;
+	}
+
+	.col-md-9 p {
+		text-align: right;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	#header {
+		background-image: url(file:///Users/yotaishii%201/Desktop/343/challenge2/dawg-coffee/img/background-md.jpg);
+	}
+
+	h1 {
+		font-size: 4em;
+	}
+
+	#footer {
+		overflow: hidden;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#header {
+		background-image: url(file:///Users/yotaishii%201/Desktop/343/challenge2/dawg-coffee/img/background-lg.jpg);
+	}	
+}
+
