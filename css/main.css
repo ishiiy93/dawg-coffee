@@ -36,6 +36,8 @@ ul {
 li {
 	display: inline;
 	font-size: 16px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
 }
 
 #navicon {
@@ -153,7 +155,7 @@ dd {
 	}
 
 	#header {
-		background-image: url(file:///Users/yotaishii%201/Desktop/343/challenge2/dawg-coffee/img/background-sm.jpg);
+		background-image: url(../img/background-sm.jpg);
 		width: 100%;
 		background-repeat: no-repeat;
 		min-height: 550px;
@@ -191,7 +193,7 @@ dd {
 
 @media screen and (min-width: 992px) {
 	#header {
-		background-image: url(file:///Users/yotaishii%201/Desktop/343/challenge2/dawg-coffee/img/background-md.jpg);
+		background-image: url(.../img/background-md.jpg);
 	}
 
 	h1 {
@@ -205,7 +207,7 @@ dd {
 
 @media screen and (min-width: 1200px) {
 	#header {
-		background-image: url(file:///Users/yotaishii%201/Desktop/343/challenge2/dawg-coffee/img/background-lg.jpg);
+		background-image: url(../img/background-lg.jpg);
 	}	
 }
 
